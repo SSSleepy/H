@@ -1,3 +1,4 @@
+local SimpHubExclusive = script.Parent.Parent.SimpHubExclusive
 local TreasureHuntSimulator1 = Instance.new("TextLabel")
 local TreasureHuntSimulator5 = Instance.new("TextLabel")
 local TreasureHuntSimulator2 = Instance.new("TextLabel")
@@ -32,7 +33,6 @@ local MM3 = Instance.new("TextButton")
 local MM4 = Instance.new("TextButton")
 local MM5 = Instance.new("TextButton")
 local MM6 = Instance.new("TextButton")
-
 TreasureHuntSimulator1.Name = "TreasureHuntSimulator1"
 TreasureHuntSimulator1.Parent = SimpHubExclusive
 TreasureHuntSimulator1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
