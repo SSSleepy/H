@@ -1,7 +1,7 @@
 repeat wait() until game:IsLoaded()
 game.StarterGui:SetCore("SendNotification", {
 	Title = "Executed Sleepy Hub";
-	Text = "Check Point Loaded";
+	Text = "Check Point Started";
 	Icon = "rbxassetid://9306149013";
 	Duration = 20;
 })
